@@ -21,6 +21,7 @@ public class SolutionTest {
         int fy = 3;
         int t = 3;
 
-        Assert.assertTrue(new Solution().isReachableAtTime(sx, sy, fx, fy, t));
+        Assert.assertFalse(new Solution().isReachableAtTime(sx, sy, fx, fy, t));
     }
+
 }
